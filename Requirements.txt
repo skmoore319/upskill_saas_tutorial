@@ -12,7 +12,7 @@ Stripe Integration
 (DONE)* Users should have a Stripe customer token in the users table.
 (DONE)* Javascript should prevent Pro form from submitting, when user fills it out,
 and should send CC info to Stripe. Stripe will return with a card token.
-* Javascript should send user fields and card token to our rails app. Rails app
+(DONE)* Javascript should send user fields and card token to our rails app. Rails app
 should validate the user fields. Rails app will note whether Plan 1 or Plan 2.
 * Once validated, Rails should send user info (email, plan id) and card token
 to Stripe server and Stripe will create a subscription and send back customer
